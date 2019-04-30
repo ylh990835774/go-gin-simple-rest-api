@@ -16,7 +16,7 @@ func main() {
 	r.GET("/newsfeed", handler.NewsfeedGet(feed))
 	r.POST("/newsfeed", handler.NewsfeedPost(feed))
 	/*
-		可使用js发送post请求
+		// use js send post request
 		await fetch('/newsfeed', {
 		    method: 'POST',
 		    headers: {'content-type': 'application/json'},
